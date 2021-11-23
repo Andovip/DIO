@@ -1,0 +1,30 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real total, v1, v2, v3, v4 , media
+		cadeia Funcionario
+		
+		escreva(
+"Calculando a venda dos Do primeiro Bimestre deste Ano")
+		escreva("Qual o Nome do Funcionário")
+		leia(Funcionario)
+		escreva("Insira a venda de Janeiro")
+		leia(v1)
+		escreva("Insira a Venda de Fevereiro")
+		leia(v2)
+		escreva("Insira a Venda de Março")
+		leia(v3)
+		escreva("Insira a Venda do Mes de Abril")
+		leia(v4)
+
+		total=v1 + v2 + v3 + v4
+		media=total/4
+
+		escreva("O Vendedor " + Funcionario + " Obteve o Total de Vendas de R$"+ total +" e Alcançou uma média de R$" + media)
+	
+	
+	
+	}
+}
