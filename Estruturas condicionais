@@ -1,0 +1,33 @@
+//Calculando Médias de alunos
+programa
+{
+	inclua biblioteca Matematica
+	
+	funcao inicio()
+	{
+		real nota1, nota2, nota3, nota4, media
+		cadeia aluno
+		
+		escreva("Digite Seu Nome: ")
+		leia(aluno)
+		escreva("Qual Sua Primeira Nota: ")
+		leia(nota1)
+		escreva("Qual Sua Segunda Nota: ")
+		leia(nota2)
+		escreva("Qual Sua terceira Nota: ")
+		leia(nota3)
+		escreva("Qual sua Quarta Nota: ")
+		leia(nota4)
+		
+		media=(nota1+ nota2 + nota3 + nota4)/4
+		escreva("Caro Aluno, " + aluno + "/n Sua Média é:" + media)
+		// esta proxima etapa é onde vemos se um aluno está aprovado ou não.
+		se(media>=7){
+			escreva("\n" + "!!!!!!!!!!!!!Parabéns!!!!!!!!!!! \n Você foi Aprovado")
+		}
+		// caso não alcance a media
+		senao {
+			escreva("\n" + "Infelismente você foi Reprovado")
+		}
+	}
+}
