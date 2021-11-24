@@ -1,0 +1,59 @@
+// este é uma opção de escolhas para abrir uma interface de stream.
+// acrescentei algumas coisas só para não diserem que é CTRL-C CTRL-V
+
+programa
+{
+	
+	funcao inicio()
+	{
+		escreva(" [1]-----Abrir Netflix \n [2]-----Abrir Amazon Prime \n [3]-----Abrir HBO GO \n [4]-----Sair ")
+		inteiro menu = 0
+		escreva("\n" + "Sua Opção")
+		leia(menu) 
+		se (menu==1){
+			escreva("Ok!! Abrir NetFlix")
+		}
+		se (menu == 2){
+			escreva("Hehe!! Amazon Prime, Boa Escolha!!!")
+		}
+		se (menu == 3){
+			escreva("Temos ALguem que curte gastar dinhero aqui, vou abrir a HBO GO!!")
+		}
+		se (menu == 4)
+			escreva("Saindo!!! Até a Proxima!")
+	}
+	
+}
+
+//Rodou Legal
+// o Segundo Código é no CASO...
+programa
+{
+//Não Funcionou a Opção de escrever qualquer valor e dar Zero... Não pesquisarei mais afundo pos portugol 
+//não é uma linguagem que quero entrar em apronfundamento
+	funcao inicio()
+	{
+		escreva(" [1]-----Abrir Netflix \n [2]-----Abrir Amazon Prime \n [3]-----Abrir HBO GO \n [4]-----Sair ")
+		inteiro menu=0
+		escreva("\n" + "Sua Opção")
+		leia(menu) 
+		escolha(menu)
+		{
+		caso 1:
+		escreva("Ok!! Abrir NetFlix")
+		pare
+		caso 2:
+		escreva("Hehe!! Amazon Prime, Boa Escolha!!!")
+		pare
+		caso 3:
+		escreva("Temos ALguem que curte gastar dinhero aqui, vou abrir a HBO GO!!")
+		pare
+		caso 4:
+		escreva("Saindo!!! Até a Proxima!")
+		pare
+
+		caso contrario:
+		escreva("Você de Escolher uma opção entre 1, 2, 3 e 4")
+		}
+	}	
+}
